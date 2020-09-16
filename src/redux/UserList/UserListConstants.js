@@ -1,0 +1,2 @@
+export const CHANGE_USERS = "CHANGE_USERS"
+export const REMOVE_USER ="REMOVE_USER"
