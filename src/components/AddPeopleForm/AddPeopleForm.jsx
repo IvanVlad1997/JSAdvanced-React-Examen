@@ -30,8 +30,7 @@
              const id = props.userReducer.counter
             const valuesPlusDate ={...values, data, id}
             props.changeUsers(valuesPlusDate)
-           console.log(JSON.stringify(valuesPlusDate, null, 2))
-           console.log(props)
+          
            setSubmitting(false);
          }, 400);
        }}

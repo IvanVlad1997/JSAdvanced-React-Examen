@@ -13,7 +13,7 @@ const rootReducer =  combineReducers({
 })
 
 const persistConfig = {
-    blacklist: [],
+    blacklist: ['checkReducer'],
     key: 'root',
     storage,
   }

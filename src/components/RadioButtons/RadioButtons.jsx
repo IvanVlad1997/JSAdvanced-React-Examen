@@ -18,7 +18,7 @@ const  Radio = (props) => {
       }}
       onSubmit={(values) => {
         props.changeCheck(values.option)
-        alert(JSON.stringify(values, null, 2));
+        
       }}
 
      
@@ -70,7 +70,7 @@ const  Radio = (props) => {
       }}
       onSubmit={values => {
         props.changeChecks(values)
-        alert(JSON.stringify(values, null, 2));
+       
       }}
     >
       {({ values, handleChange, submitForm }) => (

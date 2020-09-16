@@ -18,7 +18,7 @@ const UserItem  =  (props) => {
     if (props.check.checks2.length ===1)  sortedUserList2 = newUser.filter((user) => user.salariu >=2500 && user.salariu<4000)
     if (props.check.checks3.length ===1) sortedUserList3 = newUser.filter((user) => user.salariu>4000)
      sortedUserList = [...sortedUserList1,...sortedUserList2,...sortedUserList3] 
-    if (sortedUserList.length === 0)  sortedUserList = [...newUser]
+    if (props.check.checks1.length === 0 && sortedUserList.length === 0 && props.check.checks2.length ===0 && props.check.checks3.length ===0 )  sortedUserList = [...newUser]
     
     console.log(sortedUserList)
     return sortedUserList.map((user, index) => {

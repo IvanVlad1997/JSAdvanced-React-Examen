@@ -5,13 +5,16 @@ import Radio from '../../components/RadioButtons/RadioButtons'
 
 const People = () => {
     return (
-        <div className="container mt-3">
+        <div className="container mt-2">
             <div className="row">
-                <div className="col-12 ">
-                    <Link to ="/" className="btn btn-primary">Home</Link>
+                <div className="col-12 col-lg-3 ">
+                  <Link to ="/" className="btn btn-primary">Home</Link>
                     <Radio />
-                    <UserList />
+                   
                     
+                </div>
+                <div className="col-12 col-lg-9">
+                    <UserList />
                 </div>
             </div>
        </div>

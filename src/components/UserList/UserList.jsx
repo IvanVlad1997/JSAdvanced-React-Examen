@@ -4,12 +4,10 @@ import UserItem from '../UserItem/UserItem'
 
 function UserList() {
     return (
-        <div className="row mt-3" >
-            <div className="col-12 col-lg-3">
+      
+          
 
-            </div>
-
-            <div className="col-12 col-lg-9 ">
+            <div >
                 <Table striped bordered hover >
                     <thead>
                         <tr>
@@ -25,7 +23,7 @@ function UserList() {
                     </tbody>
                 </Table>
             </div>            
-        </div>
+     
 
         
     )
