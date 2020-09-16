@@ -1,5 +1,6 @@
 import React from 'react'
 import {Table} from 'react-bootstrap'
+import UserItem from '../UserItem/UserItem'
 
 function UserList() {
     return (
@@ -20,7 +21,7 @@ function UserList() {
                         </tr>
                     </thead>
                     <tbody>
-         
+                            <UserItem />
                     </tbody>
                 </Table>
             </div>            
