@@ -3,7 +3,7 @@ import {Table} from 'react-bootstrap'
 
 function UserList() {
     return (
-        <div className="row" className="mt-3">
+        <div className="row mt-3" >
             <div className="col-12 col-lg-3">
 
             </div>

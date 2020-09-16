@@ -1,0 +1,2 @@
+export const CHANGE_CHECK = "CHANGE_CHECK"
+export const CHANGE_CHECKS = "CHANGE_CHECKS"

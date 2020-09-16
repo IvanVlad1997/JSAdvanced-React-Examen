@@ -3,11 +3,13 @@ import thunk from 'redux-thunk'
 import logger from 'redux-logger'
 import {persistStore, persistReducer} from 'redux-persist'
 import storage from 'redux-persist/lib/storage'
-import {userReducer} from './Checklist/ChecklistReducer'
+import {userReducer} from './UserList/UserListReducer'
+import {checkReducer} from './Checklist/ChecklistReducer'
 
 const rootReducer =  combineReducers({
     
-    userReducer: userReducer
+    userReducer: userReducer,
+    checkReducer
 })
 
 const persistConfig = {
